@@ -11,3 +11,7 @@ cmds = []
 
 [start]
 cmd = 'bash start.sh'
+
+[variables]
+# Prevent nixpacks from auto-running Laravel commands
+NIXPACKS_NO_DEFAULT_PHP_CMD = 'true'
